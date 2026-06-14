@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"outDir": ".",
+		"module": "nodenext",
+		"moduleResolution": "nodenext"
+	},
+	"include": ["./index.ts"],
+	"exclude": ["./node_modules"]
+}
