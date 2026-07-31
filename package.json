@@ -1,6 +1,6 @@
 {
 	"name": "@paul-16098/prettier-config",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "My personal Prettier config",
 	"type": "module",
 	"exports": "./index.js",
@@ -13,6 +13,7 @@
 	},
 	"devDependencies": {
 		"prettier": "^3.8.4",
+		"prettier-plugin-ignored": "^1.0.0",
 		"typescript": "^5.9.3"
 	}
 }

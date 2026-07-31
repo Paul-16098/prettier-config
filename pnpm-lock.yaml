@@ -210,11 +210,19 @@ importers:
       prettier:
         specifier: ^3.8.4
         version: 3.8.4
+      prettier-plugin-ignored:
+        specifier: ^1.0.0
+        version: 1.0.0(prettier@3.8.4)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
 
 packages:
+
+  prettier-plugin-ignored@1.0.0:
+    resolution: {integrity: sha512-q0wSUvUfHqg2cZ5SADkqnGK9Cv5bBn/ootjwDWAQ+8qE/iN1nklT3XHSaF6duRl6j0P4Ew70r0vAJkGZrn4/+w==}
+    peerDependencies:
+      prettier: 3.x
 
   prettier@3.8.4:
     resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
@@ -227,6 +235,10 @@ packages:
     hasBin: true
 
 snapshots:
+
+  prettier-plugin-ignored@1.0.0(prettier@3.8.4):
+    dependencies:
+      prettier: 3.8.4
 
   prettier@3.8.4: {}
 
