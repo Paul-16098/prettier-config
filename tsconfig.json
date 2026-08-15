@@ -4,6 +4,6 @@
 		"module": "nodenext",
 		"moduleResolution": "nodenext"
 	},
-	"include": ["./index.ts"],
+	"include": ["./index.ts", "./prettier-plugin-ignored.ts"],
 	"exclude": ["./node_modules"]
 }

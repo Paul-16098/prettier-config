@@ -1,9 +1,12 @@
-import prettier from "prettier";
+import { type Config } from "prettier";
+import * as prettierPluginIgnored from "./prettier-plugin-ignored.js";
+// const prettierPluginIgnored = require("prettier-plugin-ignored")
+//  as typeof import("prettier-plugin-ignored");
 
-const config: prettier.Config = {
+const config: Config = {
 	tabWidth: 2,
 	useTabs: true,
-	plugins: ["prettier-plugin-ignored"],
+	plugins: [prettierPluginIgnored],
 
 	overrides: [
 		{
